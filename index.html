@@ -10,21 +10,6 @@
   <meta name="theme-color" content="#1e3a8a" />
   <meta name="background-color" content="#111827" />
 
-  <!-- PWA Meta Tags -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="AnimeInfo" />
-  <meta name="mobile-web-app-capable" content="yes" />
-
-  <!-- PWA Manifest -->
-  <link rel="manifest" href="/manifest.json" />
-
-  <!-- Apple Touch Icon -->
-  <link rel="apple-touch-icon" href="/logo-circle.png" />
-
-  <!-- Windows Tile -->
-  <meta name="msapplication-TileImage" content="/logo-square.jpg" />
-  <meta name="msapplication-TileColor" content="#1e3a8a" />
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 
@@ -34,13 +19,7 @@
 
 <body>
   <div id="root"></div>
-  <script>
-  if ('serviceWorker' in navigator && location.hostname !== 'localhost') {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js');
-    });
-  }
-</script>
+ 
 </body>
 
 </html>
