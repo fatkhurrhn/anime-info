@@ -10,6 +10,7 @@ import Studios from './pages/Studios';
 import DetailStudio from './pages/DetailStudio';
 import Seasons from './pages/Seasons';
 import DetailSeason from './pages/DetailSeason';
+import Tes from './pages/Tes';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AutoToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/tes" element={<Tes />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/:slug" element={<Detail />} />
         <Route path="/genres" element={<Genres />} />
